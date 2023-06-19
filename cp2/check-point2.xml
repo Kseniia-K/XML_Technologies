@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<notebook
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="check-point2.xsd">
+    <offices>
+        <office code="a1">Big office</office>
+        <office code="a2">Small office</office>
+    </offices>
+    <person id="p1" office="a1">
+        <name>
+            <first>Ivan</first>
+            <surname>Ivanov</surname>
+        </name>
+        <address>
+            <city>Moscow</city>
+            <street>River street</street>
+            <index>123457</index>
+        </address>
+        <phones>
+            <phone type="work">123-45-67</phone>
+            <phone type="home">345-56-78</phone>
+        </phones>
+    </person>
+    <person id="p2" office="a2">
+        <name>
+            <first>Peter</first>
+            <surname>Petrov</surname>
+        </name>
+        <address>
+            <index>123456</index>
+            <city>St. Peterburg</city>
+            <street>Driver street</street>
+        </address>
+        <phones>
+            <phone>190-45-78</phone>
+        </phones>
+    </person>
+</notebook>
